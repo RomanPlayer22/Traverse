@@ -52,11 +52,5 @@ public class TraverseItemTagProvider extends FabricTagProvider.ItemTagProvider {
 
 
 		copy(TraverseBlockTags.FIR_LOGS, TraverseItemTags.FIR_LOGS);
-
-		copy(TraverseBlockTags.PLANKS_THAT_BURN, TraverseItemTags.PLANKS_THAT_BURN);
-
-		copy(TraverseBlockTags.STRIPPED_LOGS, TraverseItemTags.STRIPPED_LOGS);
-
-		copy(TraverseBlockTags.STRIPPED_WOOD, TraverseItemTags.STRIPPED_WOOD);
 	}
 }

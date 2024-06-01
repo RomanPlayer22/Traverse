@@ -20,7 +20,7 @@ public class TraverseTerraBlenderGeneration extends Region implements Runnable, 
 	TraverseBiomeConfig BIOME_CONFIG;
 
 	public TraverseTerraBlenderGeneration() {
-		super(new Identifier(Traverse.MOD_ID, "overworld"), RegionType.OVERWORLD, 5);
+		super(Identifier.of(Traverse.MOD_ID, "overworld"), RegionType.OVERWORLD, 5);
 	}
 
 	@Override

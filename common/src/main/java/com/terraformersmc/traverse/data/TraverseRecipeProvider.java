@@ -65,18 +65,18 @@ public class TraverseRecipeProvider extends FabricRecipeProvider {
 			.pattern("LL")
 			.input('L', TraverseBlocks.FIR_LOG)
 			.criterion("has_logs", InventoryChangedCriterion.Conditions.items(TraverseBlocks.FIR_LOG))
-			.offerTo(exporter, new Identifier(Traverse.MOD_ID, "fir_wood"));
+			.offerTo(exporter, Identifier.of(Traverse.MOD_ID, "fir_wood"));
 
 		new ShapedRecipeJsonBuilder(RecipeCategory.BUILDING_BLOCKS, TraverseBlocks.STRIPPED_FIR_WOOD, 3)
 			.pattern("LL")
 			.pattern("LL")
 			.input('L', TraverseBlocks.STRIPPED_FIR_LOG)
 			.criterion("has_logs", InventoryChangedCriterion.Conditions.items(TraverseBlocks.STRIPPED_FIR_LOG))
-			.offerTo(exporter, new Identifier(Traverse.MOD_ID, "stripped_fir_wood"));
+			.offerTo(exporter, Identifier.of(Traverse.MOD_ID, "stripped_fir_wood"));
 	}
 
 	@Override
 	protected Identifier getRecipeIdentifier(Identifier identifier) {
-		return new Identifier(Traverse.MOD_ID, identifier.getPath());
+		return Identifier.of(Traverse.MOD_ID, identifier.getPath());
 	}
 }

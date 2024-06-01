@@ -15,7 +15,7 @@ public class TraverseClient implements ClientModInitializer {
 	}
 
 	private static void registerEntityRenderers() {
-		TerraformBoatClientHelper.registerModelLayers(new Identifier(Traverse.MOD_ID, "fir"), false);
+		TerraformBoatClientHelper.registerModelLayers(Identifier.of(Traverse.MOD_ID, "fir"), false);
 	}
 
 	private static void registerRenderLayers() {

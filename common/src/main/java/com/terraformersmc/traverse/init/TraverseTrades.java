@@ -1,6 +1,6 @@
 package com.terraformersmc.traverse.init;
 
-import com.terraformersmc.terraform.tree.merchant.TerraformSaplingTradeHelper;
+import com.terraformersmc.terraform.tree.api.merchant.TerraformSaplingTradeHelper;
 import com.terraformersmc.traverse.item.TraverseItems;
 
 public class TraverseTrades {
