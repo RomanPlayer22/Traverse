@@ -1,7 +1,4 @@
 {
-  "itemGroup.traverse.items": "Traverse Items",
-  "tag.item.traverse.fir_logs": "Fir Logs",
-
   "biome.traverse.arid_highlands": "Arid Highlands",
   "biome.traverse.autumnal_woods": "Autumnal Woods",
   "biome.traverse.coniferous_forest": "Coniferous Forest",
@@ -46,6 +43,13 @@
   "block.traverse.fir_fence_gate": "Fir Fence Gate",
   "block.traverse.fir_door": "Fir Door",
   "block.traverse.fir_trapdoor": "Fir Trapdoor",
+
+  "itemGroup.traverse.items": "Traverse Items",
   "item.traverse.fir_boat": "Fir Boat",
-  "item.traverse.fir_chest_boat": "Fir Boat with Chest"
+  "item.traverse.fir_chest_boat": "Fir Boat with Chest",
+
+  "tag.item.traverse.fir_logs": "Fir Logs",
+  "tag.item.c.planks_that_burn": "Planks that Burn",
+  "tag.item.c.stripped_logs": "Stripped Logs",
+  "tag.item.c.stripped_wood": "Stripped Wood"
 }
